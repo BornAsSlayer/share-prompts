@@ -28,6 +28,21 @@ const Form = ({type, post, setPost, submitting, handleSubmit}) => {
               className='form_textarea'
             />
           </label>
+          <label>
+            <span className="font-satoshi font-semibold text-base text-gray-700">
+              Tag
+              <span>(#product, #webDevlopment, #idea</span>
+            </span>
+
+            <textarea 
+              value={post.prompt}
+              onChange={() => setPost({...post,
+              prompt: e.target.value })}
+              placeholder="Write your promp here..."
+              required
+              className='form_textarea'
+            />
+          </label>
         </form>
     </section>
   )
