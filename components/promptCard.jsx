@@ -5,7 +5,7 @@ import Image from 'next/image';
 import {useSession} from 'next-auth/react';
 import{usePathname, useRouter} from 'next/navigation';
 
-const promptCard = ({post, handleTagClick, handleEdit, handleDelete}) => {
+const PromptCard = ({post, handleTagClick, handleEdit, handleDelete}) => {
 
   const { data: session} = useSession();
   const pathName = usePathname();
@@ -79,4 +79,4 @@ const promptCard = ({post, handleTagClick, handleEdit, handleDelete}) => {
   )
 }
 
-export default promptCard
+export default PromptCard
