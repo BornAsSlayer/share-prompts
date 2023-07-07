@@ -1,3 +1,11 @@
+This is an awesome web app that can be used to store or share Prompts for any AI Chatbots like ChatGPT or Google Bard it was built on Next.js and uses MongoDB to store the Prompts.
+
+It has Google Login API integration and can store prompts under a user's name.
+
+Give a Star if you like it. Ps Ignore Amature mistakes.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
